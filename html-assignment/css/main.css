@@ -8,6 +8,32 @@ header, footer {
     background-color: rgb(148, 175, 213);
 }
 
-. site-title {
-    color: rgb(231, 170, 205);
+.site-title {
+    color: rgb(10, 46, 106);
 }
+
+#my-image {
+    box-shadow: 0 0 2px 1px #000
+}
+
+ul {
+    list-style-type: square;
+}
+
+.hobby-list li:nth-child(odd) {
+    background-color: burlywood;
+}
+
+.navigation {
+    list-style-type: none; text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    background-color: rgb(164, 192, 158); 
+    border: 1px solid rgb(211, 200, 133); 
+    }
+
+    .navigation a:hover {
+        background-color: #369
+    }
