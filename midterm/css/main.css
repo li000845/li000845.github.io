@@ -1,20 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: rgb(110, 214, 203); /* Use mint or green color*/
+    margin-top: 0%;
+    background-color: rgb(83, 193, 236); /* Use mint or green color*/
 }
-header {
-    position: relative;
+.header {
+    position:relative;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
 }
-header img {
+.header img {
     width: 100%;
-    max-height: 300px; /* Adjust the height as needed */
-    object-fit: cover;
 }
-header h1 {
+.header h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,4 +20,7 @@ header h1 {
     color: #fff;
     font-size: 40px; /* Adjust the font size as needed */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+}
+.content {
+    background-color: rgb(255, 255, 224);
 }
