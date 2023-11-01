@@ -23,4 +23,7 @@ body {
 }
 .content {
     background-color: rgb(255, 255, 224);
+    position: absolute;
+    padding-left: 100px;
+    padding-right: 100px;
 }
