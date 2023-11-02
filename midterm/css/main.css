@@ -1,17 +1,27 @@
+*{
+    margin: 0 auto;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin-top: 0%;
     background-color: #aad4cf; /* Use primary color*/
 }
+
 .header {
     position:relative;
     text-align: center;
     padding-left: 100px;
     padding-right: 100px;
+    width: 1000px;
+    margin: 0 auto;
 }
+
 .header img {
     width: 100%;
+    vertical-align: middle;
 }
+
 .header h1 {
     position: absolute;
     top: 50%;
@@ -21,8 +31,9 @@ body {
     font-size: 40px; /* Adjust the font size as needed */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
 }
+
 .content {
-    background-color: rgb(255, 255, 224);
+    background-color: #D8E8E7;
     position: absolute;
     padding-left: 100px;
     padding-right: 100px;
