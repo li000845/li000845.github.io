@@ -224,7 +224,8 @@
     margin: 20px 0 10px 0;
 }
 .teamMain{
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    align-items: normal;
 }
 .team ul {
     width: 100%;
