@@ -1,0 +1,399 @@
+/* #endregion */
+.container {
+    width: 100%;
+    height: 100%;
+}
+.inner {
+    width: 95%;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+/* #region 头部 */
+#header {
+    background-color: #222;
+}
+#header .img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(../images/logo.png) no-repeat;
+    margin: 20px 20px;
+    margin-right: 50px;
+}
+#header ul li {
+    padding: 20px 40px;
+    font-size: 16px;
+    text-align: center;
+}
+#header ul li:first-child {
+    background-color: #c78c06;
+}
+#header ul li:first-child a {
+    color: #222;
+}
+#header .search {
+    display: flex;
+}
+#header .search input {
+    padding: 10px;
+    flex: 1;
+    font-size: 16px;
+}
+#header button {
+    background-color: #222;
+    color: #c78c06;
+    text-align: center;
+    border: 1px solid #c78c06;
+}
+/* #endregion */
+
+/* #region media */
+.media {
+    background: url(../images/main-banner.jpg) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+    padding: 50px 0;
+}
+.mediaMain {
+    padding: 50px 50px 10px 10px;
+    background-color: #22222296;
+    color: #fff;
+    flex-direction: column;
+    align-items: normal;
+    box-sizing: border-box;
+}
+.mediaMain p {
+    font-size: 50px;
+    width: 100%;
+    font-weight: bold;
+}
+.mediaMain button {
+    font-size: 16px;
+    padding: 30px 20px;
+    width: 200px;
+    background-color: #c78c06;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.mediaMain button .arrow {
+    border: 10px solid transparent;
+    border-left: 15px solid #222;
+}
+/* #endregion */
+
+/* #region About Us */
+.about {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ffe6ac;
+
+}
+.aboutMain {
+    align-items: normal;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.about img {
+    width: 49%;
+    margin-right: 2%;
+}
+.about .text h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.about .text p {
+    margin-top: 20px;
+}
+/* #endregion */
+
+/* #region Our Services*/
+.services h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.servicesMain {
+    flex-direction: column;
+    align-items: normal;
+}
+.services ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.services ul li {
+    width: 32%;
+    margin: 1%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: #ffe6ac;
+}
+.services ul li img {
+    width: 100%;
+}
+.services ul li:nth-child(3) {
+    margin-left: 0;
+}
+.services ul li:nth-child(5) {
+    margin-right: 0;
+}
+.services ul li:first-child {
+    width: 49%;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 2%;
+}
+.services ul li:nth-child(2) {
+    width: 49%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.services ul li h1 {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: bold;
+}
+.services ul li p {
+    width: 95%;
+    margin: 0 auto;
+}
+.services ul li button {
+    width: 95%;
+    font-size: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    color: #fff;
+    background-color: #222;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+.services ul li button .arrow {
+    border: 10px solid transparent;
+    border-left: 15px solid #fff;
+    margin-left: 20px;
+}
+/* #endregion */
+
+/* #region Our Vision */
+.vision {
+    background: url(../images/vision.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 0 -400px;
+}
+.visionMain {
+    padding: 40px 0 20px 0;
+    color: #fff;
+    align-items: normal;
+    flex-wrap: wrap;
+}
+.visionMain h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.visionMain button {
+    font-size: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    color: #fff;
+    background-color: #222;
+    justify-content: center;
+    border: 1px solid #c78c06;
+    margin-top: 20px;
+    max-width: 176px;
+}
+.visionMain button .arrow {
+    border: 10px solid transparent;
+    border-left: 15px solid #fff;
+    margin-left: 20px;
+}
+/* #endregion */
+
+/* #region Our Team */
+.team h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.teamMain{
+    flex-wrap: wrap
+}
+.team ul {
+    width: 100%;
+}
+.team ul li {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.team ul li:last-child {
+    flex-direction: row-reverse;
+}
+.team ul li img {
+    width: 50%;
+}
+.team ul li .text {
+    background-color: #ffe6ac;
+    padding: 20px 10px 0 10px;
+    box-sizing: border-box;
+}
+.team ul li .text h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.team ul li .text span {
+    font-size: 14px;
+    font-weight: bold;
+}
+.team ul li .text p {
+    border-top: 1px solid #c78c06;
+    padding-top: 10px;
+}
+/* #endregion */
+
+/* #region Contact Us */
+.contactMain {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: normal
+}
+.contactMain h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.contactMain span {
+    margin: 10px 0;
+}
+.contactMain .title {
+    font-size: 24px;
+    font-weight: bold;
+} 
+.contactMain .message {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.contactMain .message form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.contactMain .message input {
+    width: 100%;
+    border: 1px solid #222;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.contactMain .message button {
+    width: 100px;
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 5px 0;
+    color: #c78c06;
+    background-color: #222;
+}
+.contactMain .operation table {
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    table-layout: fixed;
+}
+.contactMain .operation table th {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+.contactMain .operation table td {
+    padding: 10px;
+}
+/* #endregion */
+
+/* #region footer */
+footer {
+    width: 100%;
+    background-color: #222;
+    color: #c78c06;
+}
+.footerMain {
+    flex-direction: column;
+    align-items: normal;
+    padding: 10px 0;
+}
+.footerMain p {
+    padding: 5px 0;
+}
+
+/* #endregion */
+
+@media screen and (max-width: 760px) {
+    .inner {
+        flex-direction: column;
+    }
+    /* #region 头部 */
+    #header .img {
+        background-color: #c78c06;
+        margin: 0;
+        width: 100%;
+    }
+    #header ul {
+        width: 100%;
+        display: flex;
+        flex: 1;
+        flex-direction: column
+    }
+    #header ul li {
+        flex: 1;
+
+    }
+    #header .search {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /* #endregion  */
+    .media {
+        padding: 0;
+    }
+    .mediaMain {
+        width: 100%;
+        padding: 50px 2.5% 10px 2.5%;
+    }
+    .aboutMain {
+        padding: 0;
+    }
+    .about img {
+        width: 100%;
+        margin-right: 0;
+    }
+    .about .text p {
+        margin-top: 10px;
+    }
+    .services ul li {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .services ul li:first-child,.services ul li:nth-child(2) {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .vision {
+        background-position: 0;
+        background-size: 100% 100%;
+
+    }
+    .team ul li {
+        flex-wrap: wrap;
+    }
+    .team ul li img {
+        width: 100%;
+    }
+}
