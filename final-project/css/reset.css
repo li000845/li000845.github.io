@@ -1,4 +1,4 @@
-/* 基础设置 */
+/* basic setting */
 body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ ul,ol {
 }
 
 img {
-    /* 底部留白 */
+    /* space at the bottom */
     display: block;
 	border:0;
 }
@@ -20,26 +20,23 @@ b,strong {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    /* 父元素字号的百分比 */
     font-size: 100%;
     font-weight: normal;
 }
 
 i,em {
-    /* 不倾斜 */
     font-style: normal;
 }
 
 u,ins,s,del {
-    /* 去掉中划线和下划线 */
     text-decoration: none;
 }
 
 table {
     border: 1px solid #999;
-    /* 相当于是cellspacing */
+    /* cellspacing */
     border-spacing: 0;
-    /* 1px边框 */
+    /* 1px margin */
     border-collapse: collapse;
 }
 
@@ -48,12 +45,11 @@ td,th {
 }
 
 input,button {
-    /* 去掉轮廓线 */
     outline: none;
     border:none;
 }
 
-/* 风格设置 */
+/* style setting */
 body {
     font: 14px/1.5 "Microsoft YaHei", Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
     color: #333;
