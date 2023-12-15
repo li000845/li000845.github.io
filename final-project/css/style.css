@@ -389,12 +389,17 @@ footer {
     .vision {
         background-position: 0;
         background-size: 100% 100%;
-
     }
     .team ul li {
         flex-wrap: wrap;
     }
     .team ul li img {
+        width: 100%;
+    }
+    .operation {
+        width: 100%;
+    }
+    .location {
         width: 100%;
     }
 }
